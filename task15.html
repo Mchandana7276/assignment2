@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task-15</title>
+    <link rel="stylesheet" href="./task15.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <h2>Simple Interest Calculator</h2>
+        <label for="amount">Principle Amount</label>
+        <br>
+        <input type="number" placeholder="Enter Principle Amount" id="amount" required />
+        <br>
+
+        <label for="rate">Rate (%)</label>
+        <br>
+        <input type="number" placeholder="Enter Rate" id="rate" required />
+        <br>
+
+        <label for="time">Time (in years)</label>
+        <br>
+        <input type="number" placeholder="Enter time" id="time" required />
+        <br>
+
+        <button onclick="answer()">Calulate</button>
+
+        <p>Principle Amount: <span id="output_1"></span></p>
+        <p>Total Interest: <span id="output_2"></span></p>
+        <p>Total Value: <span id="output_3"></span></p>
+
+    </div>
+    <div id="result"></div>
+
+    <script src="./task15.js"></script>
+</body>
+
+</html>
